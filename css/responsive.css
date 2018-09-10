@@ -454,9 +454,9 @@ ol .label.right h6::after {
 #nav-icon3 span {
   display: block;
   position: absolute;
-  height: 4px;
+  height: 3px;
   width: 36px;
-  background: #FF6E25;
+  background: #fff;
   border-radius: 0;
   opacity: 1;
   left: 0;
@@ -505,7 +505,7 @@ ol .label.right h6::after {
   left: 50%;
 }
 .header nav {
-    background: rgba(133,132,125,0.98);
+    background: #949EA8;
     height: 100vh;
     min-height: 250px;
     position: fixed;
@@ -539,7 +539,7 @@ ol .label.right h6::after {
     top: 0;
     padding-left: 0;
     padding-right: 0;
-	overflow: auto;
+    overflow: auto;
 }
 .mainnav > ul {
 	padding: 20px 0;
@@ -567,6 +567,7 @@ ol .label.right h6::after {
 .right_box {
     position: relative;
     top: -15px;
+    display: none;
 }
 .mainnav nav ul li {
 	float: none;
