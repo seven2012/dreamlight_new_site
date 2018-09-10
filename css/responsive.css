@@ -456,7 +456,7 @@ ol .label.right h6::after {
   position: absolute;
   height: 3px;
   width: 36px;
-  background: #fff;
+  background: #949EA8;
   border-radius: 0;
   opacity: 1;
   left: 0;
@@ -693,8 +693,8 @@ ol .label.right h6::after {
 .gene_portal .half_box {
     float: none;
     min-height: 1px;
-	width: auto;
-	padding: 20px;
+    width: auto;
+    /* padding: 20px; */
 }
 .gene_portal .portal_login {
 	padding: 50px 20px;

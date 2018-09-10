@@ -62,7 +62,7 @@ body {
 @font-face {
 	font-family: 'Conv_GillSans-Light';
 	src: url('../fonts/GillSans-Light.eot');
-	src: local('☺'), url('../fonts/GillSans-Light.woff') format('woff'), url('../fonts/GillSans-Light.ttf') format('truetype'), url('../fonts/GillSans-Light.svg') format('svg');
+	src: local('â˜º'), url('../fonts/GillSans-Light.woff') format('woff'), url('../fonts/GillSans-Light.ttf') format('truetype'), url('../fonts/GillSans-Light.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -385,13 +385,13 @@ body {
 	margin-bottom: 12px;
 }
 
-:hover .highlight_products_list ul li figure {
+:hover .product_box ul li figure {
 		box-shadow: 0 8px 9px 4px rgba(0, 0, 0, 0.08);
-		-webkit-transition: box-shadow 0.5s ease-in-out;
-    -moz-transition: box-shadow 0.5s ease-in-out;
-    -ms-transition: box-shadow 0.5s ease-in-out;
-    -o-transition: box-shadow 0.5s ease-in-out;
-    transition: box-shadow 0.5s ease-in-out;
+		-webkit-transition: box-shadow 0.5s ease-in-out !important;
+		-moz-transition: box-shadow 0.5s ease-in-out;
+		-ms-transition: box-shadow 0.5s ease-in-out;
+		-o-transition: box-shadow 0.5s ease-in-out !important;
+		transition: box-shadow 0.5s ease-in-out !important;
 		border-color: #fff;
 	}
 
@@ -1453,9 +1453,23 @@ select.std_select {
 .customSelect.std_select .silver {
 	background: #EDF2EC !important;
 }
+
+.customSelect.std_select .darkblue {
+	background: #233B5D !important;
+}
+.customSelect.std_select .purple {
+	background: #7071C9 !important;
+}
+.customSelect.std_select .green {
+	background: #007A87 !important;
+}
+.customSelect.std_select .black {
+	background: #000000 !important;
+}
 .product_discount_wrapper {
 	height: calc(100vh - 70px);
 	padding-top: 104px;
+	margin-bottom: 35px;
 }
 .inner_hero {
 	height: 510px;

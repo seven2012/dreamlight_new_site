@@ -15,7 +15,16 @@
 <link href="css/customSelectBox.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <!-- END: STYLESHEET -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112037501-1');
+</script>
 
 </head>
 
@@ -78,7 +87,10 @@
 			<div class="highlight_products_list">
 				<ul>
 					<li>
-						<div class="product_box">
+						<div data-aos="fade-right"
+	    data-aos-offset="200"
+	    data-aos-delay="30"
+	    data-aos-duration="1000" class="product_box">
 							<a href="ease.html">
 								<figure>
 									<img src="images/Ease.png" alt="">
@@ -91,7 +103,10 @@
 						</div>
 					</li>
 					<li class="featured">
-						<div class="product_box">
+						<div data-aos="fade-up"
+	    data-aos-offset="200"
+	    data-aos-delay="50"
+	    data-aos-duration="1000" class="product_box">
 							<a href="pro.html">
 								<figure>
 									<img src="images/Pro1.png" alt="">
@@ -107,7 +122,10 @@
 						</div>
 					</li>
 					<li>
-						<div class="product_box">
+						<div data-aos="fade-left"
+	    data-aos-offset="200"
+	    data-aos-delay="70"
+	    data-aos-duration="1000" class="product_box">
 							<a href="heat.html">
 								<figure>
 									<img src="images/Heat.png" alt="">
@@ -125,7 +143,10 @@
 		</div>
 	</section>
 
-	<section class="dreamlight_box">
+	<section class="dreamlight_box data-aos="fade-up"
+data-aos-offset="200"
+data-aos-delay="40"
+data-aos-duration="1000"">
 		<section class="tween">
 			<div class="container text-center">
 				<div class="parent_content" id="intro">
@@ -220,7 +241,10 @@
 		<div class="container">
 			<div class="product_hg_list">
 				<ul>
-					<li>
+					<li data-aos="fade-down"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="500">
 						<figure class="backbgbox smheight">
 							<img src="images/hpic1.jpg" alt="" class="backbg">
 						</figure>
@@ -235,7 +259,10 @@
 							<a href="pro.html" class="btn">learn more</a>
 						</div>
 					</li>
-					<li>
+					<li     data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
 						<figure class="backbgbox smheight">
 							<img src="images/hpic2.jpg" alt="" class="backbg">
 						</figure>
@@ -260,13 +287,21 @@
 
 	<section class="vid_box">
 		<div class="container">
-			<div class="media_box embed-responsive embed-responsive-16by9">
+			<div     data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out" class="media_box embed-responsive embed-responsive-16by9">
 				<video width="100%" height="auto">
 					<source src="videos/DreamlightVideo.mp4#t=1.8" type="video/mp4">
 				</video>
 				<button class="play_btn"></button>
 			</div>
-			<div class="partner_box">
+			<div class="partner_box" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
 				<ul>
 					<li>
 						<a href="index.html#">
@@ -323,18 +358,26 @@
 				<p>Link your genetic data for even more in-depth results.</p>
 				<div class="app_link">
 					<ul>
-						<li><a href="index.html#"><img src="images/gplay.svg" alt=""></a></li>
-						<li><a href="index.html#"><img src="images/appstore.svg" alt=""></a></li>
+						<li><a href="https://play.google.com/store/apps/details?id=com.aisleep.dreamlight&hl=en_CA"><img src="images/gplay.svg" alt=""></a></li>
+						<li><a href="https://itunes.apple.com/us/app/dreamlight-sleepmask/id1361524742?mt=8"><img src="images/appstore.svg" alt=""></a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
 			</article>
 		</div>
 		<div class="right_design">
-			<div class="d1">
+			<div data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" class="d1">
 				<img src="images/app.png" alt="">
 			</div>
-			<div class="d2">
+			<div class="d2" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
 				<img src="images/belt.png" alt="">
 			</div>
 		</div>
@@ -416,6 +459,9 @@ $(function(){
 }); // end document ready
 </script>
 <!-- END: SCRIPTS -->
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 </body>
 </html>
