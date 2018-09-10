@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) 
+@media only screen and (max-width: 1400px)
 {
 /*Home page*/
 .logo {
@@ -31,7 +31,7 @@
 }
 .right_design .d1 img {
 	display: block;
-	max-width: 100%;
+	max-width: 150%;
 }
 .right_design .d2 img {
 	display: block;
@@ -82,14 +82,14 @@
     padding-bottom: 60px;
     padding-top: 60px;
 }
-	
+
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1400px) 
+@media only screen and (min-width: 992px) and (max-width: 1400px)
 {
 /*Home page*/
 .parent_content figure {
-	width: 150px;	
+	width: 150px;
 }
 .tween ol {
     list-style: outside none none;
@@ -108,7 +108,7 @@
     z-index: 60;
 }
 .project .label {
-	width: 150px;	
+	width: 150px;
 }
 .tween li .prcontent {
 	width: 150px;
@@ -118,7 +118,7 @@
 	width: 100px;
 }
 .label.left h6:after {
-	width: 100px;	
+	width: 100px;
 }
 .project .label1 {
     bottom: 450px;
@@ -179,14 +179,14 @@ ol .label.right h6::after {
 }
 .tween ol li {
     height: 80vh;
-}	
+}
 }
 
 /* #Tablet (Portrait) */
 
     /* Note: Design for a width of 768px */
 
-@media only screen and (max-width: 991px) 
+@media only screen and (max-width: 991px)
 {
 /*Home page*/
 .logo {
@@ -326,7 +326,7 @@ ol .label.right h6::after {
 .contact_us h2 {
     font-size: 28px;
     padding-bottom: 2px;
-}	
+}
 .contact_us {
     padding-bottom: 120px;
     padding-top: 96px;
@@ -413,14 +413,14 @@ ol .label.right h6::after {
 .tween ul li {
     height: 80vh;
 }
-	
+
 }
 
 /* #Mobile (Landscape) */
 
     /* Note: Design for a width of 480px */
 
-@media only screen and (max-width: 767px) 
+@media only screen and (max-width: 767px)
 {
 /*Home page*/
 .logo {
@@ -694,13 +694,13 @@ ol .label.right h6::after {
     min-height: 1px;
 	width: auto;
 	padding: 20px;
-}	
+}
 .gene_portal .portal_login {
 	padding: 50px 20px;
 }
 .header2 .mainnav nav ul li a {
 	color: #ffffff;
-} 
+}
 .gene_fig:after {
     background: #eff0ed;
     content: "";
@@ -816,7 +816,7 @@ ol .label.right h6::after {
 .contact_us h2 {
     font-size: 26px;
     padding-bottom: 2px;
-}	
+}
 .about_page article {
     padding-bottom: 40px;
 }
@@ -847,7 +847,7 @@ ol .label.right h6::after {
 	width: auto;
 	padding-bottom: 80px;
     padding-top: 0;
-}	
+}
 .app_page_hero .app_hero_info h1 {
     font-size: 32px;
     line-height: 1.25;
@@ -889,7 +889,7 @@ ol .label.right h6::after {
 }
 .feature_box ul li:last-child {
 	margin-bottom: 0;
-}	
+}
 .download_app_section figure {
     margin: 0 auto;
     max-width: 60%;
@@ -921,7 +921,7 @@ ol .label.right h6::after {
     line-height: 1.5;
 }
 .parent_content figure {
-	width: 150px;	
+	width: 150px;
 }
 .tween ol {
     list-style: outside none none;
@@ -940,7 +940,7 @@ ol .label.right h6::after {
     z-index: 60;
 }
 .project .label {
-	width: 150px;	
+	width: 150px;
 }
 .tween li .prcontent {
 	width: 150px;
@@ -950,7 +950,7 @@ ol .label.right h6::after {
 	width: 100px;
 }
 .label.left h6:after {
-	width: 100px;	
+	width: 100px;
 }
 .project .label1 {
     bottom: 450px;
@@ -1074,14 +1074,14 @@ ol .label7.right h6::after {
 .std_input:-moz-placeholder { /* Firefox 18- */
 	font-size: 14px;
 }
-	
+
 }
 
 /* #Mobile (Portrait) */
 
     /* Note: Design for a width of 320px */
 
-@media only screen and (min-width: 320px) and (max-width: 479px) 
+@media only screen and (min-width: 320px) and (max-width: 479px)
 {
 /*Home page*/
 .logo {
@@ -1127,7 +1127,7 @@ ol .label7.right h6::after {
 }
 .homehero_caption p {
     font-size: 20px;
-}	
+}
 .featured_product figure {
     float: none;
     min-height: 300px;
@@ -1190,7 +1190,7 @@ ol .label7.right h6::after {
 .as_seen_content h2 {
     font-size: 25px;
     padding-bottom: 15px;
-}	
+}
 .product_list ul li:nth-child(2n+1) figure {
     float: none;
     width: auto;
@@ -1417,5 +1417,5 @@ ol .label10.left h6::after {
 ol .label11.left h6::after {
     width: 50px;
 }
-	
+
 }
