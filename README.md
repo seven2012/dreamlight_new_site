@@ -11,8 +11,8 @@ Archie's Additions
 
 Rick's Revisions
 
-- [ ] Include 'Dreamlight' alongside logo in nav
-- [ ] Swap render for photograph
-- [ ] Larger, responsive paragraph text
+- [x] Include 'Dreamlight' alongside logo in nav
+- [x] Swap render for photograph
+- [x] Larger, responsive paragraph text
 - [ ] Changes to Amazon Launch Page
-- [ ] iPhone X Size & Screenshot Change
+- [x] iPhone X Size & Screenshot Change
