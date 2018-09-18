@@ -101,6 +101,10 @@ body {
 	float: left;
 	margin-right: 30px;
 }
+
+.logo::after {
+  content: "Dreamlight";
+}
 .logo a {
 	display: block;
 	outline: none !important;
