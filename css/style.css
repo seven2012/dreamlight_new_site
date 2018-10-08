@@ -2606,3 +2606,26 @@ ol .label7.right h6:after {
     transform: translateY(0px);
 }
 }
+
+.subscribe-button {
+		height: 43px;
+    width: 80px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    outline: none !important;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Conv_GILLSANS';
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    text-align: center;
+    background: #ff6e25;
+}
+
+.subscribe-button:hover {
+	box-shadow: 0 5px 30px 0 rgba(50, 54, 67, 0.2);
+	cursor: pointer;
+}
