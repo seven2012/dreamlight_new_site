@@ -3,16 +3,16 @@
 Archie's Additions
 
 - [ ] Google Analytics 
-- [ ] Check & Replace All Navigation Links
+- [x] Check & Replace All Navigation Links
 - [ ] Facebook Retargeting
 - [ ] Gene Portal
-- [ ] Mailchimp Signup
-- [ ] About Page Fleshout
+- [x] Mailchimp Signup
+- [x] About Page Fleshout
 
 Rick's Revisions
 
 - [x] Include 'Dreamlight' alongside logo in nav
 - [x] Swap render for photograph
 - [x] Larger, responsive paragraph text
-- [ ] Changes to Amazon Launch Page
+- [x] Changes to Amazon Launch Page
 - [x] iPhone X Size & Screenshot Change
