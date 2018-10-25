@@ -2,7 +2,7 @@
 
 Archie's Additions
 
-- [ ] Google Analytics 
+- [x] Google Analytics 
 - [x] Check & Replace All Navigation Links
 - [ ] Facebook Retargeting
 - [ ] Gene Portal
