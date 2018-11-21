@@ -16,6 +16,56 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<style>
+	@media(min-width:720px){
+		div.container.homehero_caption>h1{
+			color: #ffffff;
+			font-size: 48px;
+			font-family: 'CircularMedium';
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: -1px;
+		}
+		div.container.homehero_caption>.contdown{
+			font-size:55px;
+			margin-top:70px;
+			color: #ffffff;
+			font-family: 'CircularMedium';
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: -1px;
+		}
+		div.container.homehero_caption>.contdown>span.numbers{
+			font-size:80px;
+			margin-right:10px;
+		}
+	}
+	
+	@media(max-width:720px){
+		div.container.homehero_caption>h1{
+			font-size:26px;
+			color: #ffffff;
+			font-family: 'CircularMedium';
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: -1px;
+		}
+		div.container.homehero_caption>.countdown{
+			font-size:24px;
+			margin-top:70px;
+			color: #ffffff;
+			font-family: 'CircularMedium';
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: -1px;
+		}
+		div.container.homehero_caption>.countdown>span.numbers{
+			font-size:36px;
+			margin-right:10px;
+		}
+	}
+	
+</style>
 
 
 <!-- END: STYLESHEET -->
@@ -80,17 +130,12 @@
 		<div class="container homehero_caption">
 			<h1>Better sleep <span class="oin">in</span> sight.</h1>
 			<h1>Black Friday 40% Deals Week</h1>
-			<div style="margin-top:70px;color: #ffffff;
-				font-size: 48px;
-				font-family: 'CircularMedium';
-				font-weight: normal;
-				line-height: normal;
-				letter-spacing: -1px; ">
-				<span id="days" style="font-size:55px; margin-right: 10px"></span>DAYS
-				<span id="hours" style="font-size:55px;margin-right: 10px"></span><span>HOURS</span>
-				<span id="minutes" style="font-size:55px;margin-right: 10px"></span><span>MINIUTES</span>
-				<span id="seconds" style="font-size:55px;margin-right: 10px"></span><span>SECONDS</span>
-		</div>
+			<div class="countdown" style="">
+				<span class="numbers" id="days" style=""></span><span class="texts">DAYS</span>
+				<span class="numbers" id="hours" style=""></span><span class="texts">HOURS</span>
+				<span class="numbers" id="minutes" style=""></span><span class="texts">MINIUTES</span>
+				<span class="numbers" id="seconds" style=""></span><span class="texts">SECONDS</span>
+		        </div>
 		</div>
 		<a href="index.html#nextsection" class="down_arrow scroll"></a>
 	</section>
